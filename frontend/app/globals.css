@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-accent-yellow: #ecad0a;
+  --color-blue-primary: #209dd7;
+  --color-purple-secondary: #753991;
+  --color-dark-navy: #032147;
+  --color-gray-text: #888888;
+  --color-background: #f4f6f9;
+  --color-surface: #ffffff;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-dark-navy);
+  font-family: Arial, Helvetica, sans-serif;
+}
